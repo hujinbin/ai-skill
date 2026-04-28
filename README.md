@@ -1,6 +1,6 @@
 # AI Skill 合集
 
-这是一组面向 AI 编程助手（如 Claude、CodeBuddy 等）的专业技能（Skill）集合，涵盖算法艺术、视觉设计、文档处理、前端开发、3D 渲染等多个领域。每个 Skill 以 Markdown 格式编写，可读性好，便于维护和扩展。
+这是一组面向 AI 编程助手（如 Claude、CodeBuddy 等）的专业技能（Skill）集合，涵盖算法艺术、视觉设计、文档处理、前端开发、3D 渲染、内部沟通、PDF 处理等多个领域。每个 Skill 以 Markdown 格式编写，可读性好，便于维护和扩展。
 
 ## 技能列表
 
@@ -32,6 +32,18 @@
 
 创建独特的、生产级的前端界面，强调高设计品质和避免千篇一律的 AI 审美。在设计前进行设计思考（目的、风格、约束、差异化），注重排版、色彩、动效、空间构图和背景细节。适用于网页组件、落地页、仪表盘、React 组件、HTML/CSS 布局等前端 UI 构建场景。
 
+### 📢 internal-comms — 内部沟通文档
+
+帮助撰写各类内部沟通文档的资源，使用公司常用格式。支持 3P 更新（进展/计划/问题）、公司通讯、FAQ 回复、状态报告、管理层更新、项目更新、事件报告等多种文档类型。每种类型有独立的格式指导和模板，确保沟通风格一致。
+
+### 🔧 mcp-builder — MCP 服务器构建
+
+创建高质量 MCP（模型上下文协议）服务器的完整指南，使 LLM 能通过精心设计的工具与外部服务交互。四阶段工作流：深入研究和规划→实现→审查和测试→创建评估。支持 Python（FastMCP）和 TypeScript（MCP SDK），涵盖工具设计、命名规范、分页、错误处理、安全性等最佳实践。
+
+### 📑 pdf — PDF 文件处理
+
+全面的 PDF 处理技能，支持读取/提取文本和表格、合并拆分 PDF、旋转页面、添加水印、创建新 PDF、填写表单、加密/解密、提取图片、OCR 扫描版 PDF 等。使用 pypdf、pdfplumber、reportlab 等 Python 库以及 qpdf、pdftotext 等命令行工具，提供完整的操作指南和代码示例。
+
 ### 🌐 threejs-skills — Three.js 3D 开发
 
 Three.js 相关的完整技能集合，涵盖 3D 开发的各个方面：
@@ -60,6 +72,9 @@ ai-skill/
 ├── doc-coauthoring/          # 文档协作撰写
 ├── docx/                     # Word 文档处理
 ├── frontend-design/          # 前端界面设计
+├── internal-comms/           # 内部沟通文档
+├── mcp-builder/              # MCP 服务器构建
+├── pdf/                      # PDF 文件处理
 ├── threejs-skills-main/      # Three.js 3D 开发
 │   ├── threejs-animation/
 │   ├── threejs-fundamentals/
